@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true">
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        <item android:id="@+id/jn_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/orange_bar"
+            android:title="@string/jn1"
+            android:showAsAction="ifRoom"/>
+
+        <item android:id="@+id/menu1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/pink_bar"
+            android:title="@string/help1" />
+    </menu>
+</LinearLayout>

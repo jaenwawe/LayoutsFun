@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">JaeNwaweHwk2</string>
+    <string name="jn1">Menu</string>
+    <string name="help1">Help</string>
+    <string name="button_text">Button Text</string>
+    <string name="windowsKey">⌘</string>
+
+
+    android:id="@+id/linearLayout"
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:theme="@style/AppThemeA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/seeke">
+
+<!--  Where do I replace the theme-->
+
+    <ImageView
+        android:layout_width="166dp"
+        android:layout_height="111dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/smartcar"
+
+        android:layout_gravity="center_horizontal"
+        android:clickable="true" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/seekBar" />
+</LinearLayout>
+
+
+
+<!--
+
+    Task 4: Control and Events (30 points). In this activity, you need to have a SeekBar and an ImageView. The ImageView should display the first movie image from the Movie data provided to you. The mark of the SeekBar should be placed in the middle initially. You need to do the followings:
+    When the user slides the SeekBar, the size of the image should change accordingly.
+    When the user long-presses the image, the mark of the SeekBar goes to the middle (i.e., the initial position), and the size of the image should change accordingly.
+    When the user clicks (short press) the image, a Toast message and a snack bar message should both be displayed.
+    When the user swipes to the right, the previous movie picture should be loaded (if the current picture is the first one, then it stays the same).
+    When the user swipes to the left, the next movie picture should be loaded (if the current picture is the last one, then it stays the same).
+ -->

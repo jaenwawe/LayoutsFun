@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    When the user slides the SeekBar, the size of the image should change accordingly.
+    When the user long-presses the image, the mark of the SeekBar goes to the middle (i.e., the initial position), and the size of the image should change accordingly.
+    When the user clicks (short press) the image, a Toast message and a snack bar message should both be displayed.
+    When the user swipes to the right, the previous movie picture should be loaded (if the current picture is the first one, then it stays the same).
+    When the user swipes to the left, the next movie picture should be loaded (if the current picture is the last one, then it stays the same).
+ -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/seeke"
+    android:weightSum="1"
+    android:foregroundGravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.11"
+        android:padding="20dp" />
+
+    <ImageView
+        android:layout_width="50dp "
+        android:layout_height="50dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/smartcar"
+        android:layout_margin="30dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitXY" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:max="100"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentLeft ="true"
+
+
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Image View"
+        android:src="@drawable/pink_bar"
+        android:id="@+id/imgButton"
+        android:scaleType="fitXY"
+        android:max="100"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentLeft ="true"
+        android:drawableLeft="@drawable/buttonpink2"
+
+        />
+
+</LinearLayout>

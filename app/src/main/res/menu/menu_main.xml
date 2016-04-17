@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com">
+
+    <item android:id="@+id/jn_menu0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:title="Activity_main"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/jn_menu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:title="tasklinear"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/jn_menu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="taskrelative"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/jn_menu4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:title="calculator"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/jn_menu5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Seeke"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/menu10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/pink_bar"
+        android:title="@string/help1" />
+</menu>
